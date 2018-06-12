@@ -14,8 +14,6 @@ Quando("completo o meu cadastro com os seguintes valores:") do |table|
 #   @perfil_page.botao_salvar.click
   @perfil_page.completa(@cadastro)
 
-  sleep(10)
-
 end
 
 Então("devo ver a mensagem {string}") do |mensagem|

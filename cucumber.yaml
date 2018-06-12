@@ -1,0 +1,7 @@
+---
+default: --p html --p dot
+html: --format html --out=log/features.html
+bdd: --format pretty 
+dot: --format progress
+
+#pretty exibe a execução na tela 
