@@ -25,6 +25,8 @@ end
 
 # PerfilPage é classe que representa a página Meu Perfil 
 class PerfilPage < SitePrism::Page
+    element :campo_nome, 'input[name="profile.name"]'
+    element :campo_email, 'input[name="profile.email"]'  
     element :campo_empresa, 'input[name="profile.company"]'
     element :combo_cargo, 'select[name="profile.job"]'
     element :botao_salvar, 'button[type=submit]'
@@ -35,8 +37,8 @@ class PerfilPage < SitePrism::Page
 
 
     def completa(cadastro)
-        # campo_nome.set cadstro[:nome]
-        # campo_nome.set cadstro[:email]
+        campo_nome.set cadastro[:nome]
+        campo_email.set cadastro[:email]
         campo_empresa.set cadastro[:empresa]
         seleciona_cargo cadastro[:cargo]
         botao_salvar.click

@@ -9,7 +9,7 @@ end
 
 Before('@login') do 
     @login_page.load
-    @login_page.logar('eu@papito.io', '123456')
+    @login_page.logar('teste@planeta.com.br', '123456')
 end 
 
 After('@logout') do

@@ -21,13 +21,13 @@ Funcionalidade: Login
     @sprint1 @logout
     Cenario: Login do Usuario 
         
-        Quando faço login com "eu@papito.io" e "123456" 
+        Quando faço login com "teste@planeta.com.br" e "123456" 
         Então sou autenticado com sucesso
     
     @sprint1
     Cenario: Senha Incorreta 
        
-        Quando faço login com "eu@papito.io" e "102030"
+        Quando faço login com "teste@planeta.com.br" e "102030"
         Então devo ver a mensagem de alerta "Senha inválida." 
     
     @sprint2

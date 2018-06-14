@@ -1,5 +1,5 @@
 ---
-default: --p html --p dot
+default: --p html --p dot --p firefox
 html: --format html --out=log/features.html
 bdd: --format pretty 
 dot: --format progress

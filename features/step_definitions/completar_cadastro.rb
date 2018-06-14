@@ -13,8 +13,8 @@ Quando("completo o meu cadastro com os seguintes valores:") do |table|
 #   @perfil_page.seleciona_cargo(@cadastro[:cargo])
 #   @perfil_page.botao_salvar.click
   @perfil_page.completa(@cadastro)
-
 end
+
 
 Então("devo ver a mensagem {string}") do |mensagem|
   expect(page).to have_content  mensagem
