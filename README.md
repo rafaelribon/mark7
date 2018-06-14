@@ -1,3 +1,6 @@
 # mark7
-Automação com Ruby e Cucumber 
+Automação com Ruby e Cucumber  
+ - utilizando PageObjects 
+ - Criação de Relatorio 
+ 
 
